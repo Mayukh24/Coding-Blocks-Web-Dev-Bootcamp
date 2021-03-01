@@ -1,0 +1,42 @@
+* {
+  box-sizing: content-box;
+  max-width: 500px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  z-index: 1000;
+  padding: 20px;
+  color: #fff;
+  background-color: rgb(3, 211, 252);
+}
+
+dl > div {
+  background: #fff;
+  padding: 0 0 0 0;
+}
+
+dt {
+  background: transparent;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  font-size:25px;
+  display:inline-block;
+  
+}
+
+dd::after{
+  content: '\1F4DE';
+  font-size: 15px;
+}
+
+dd {
+  margin: 0;
+  padding: 0 0 0 12px;
+  white-space: nowrap;
+}
+
